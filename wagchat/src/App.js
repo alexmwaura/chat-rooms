@@ -5,7 +5,7 @@ import MainBody from './MainBody';
 
 function App() {
   return (
-    <div className='container p-5'>
+    <div className='container'>
       <MainBody>
         <ChatSideBar />
         <ChatBody />

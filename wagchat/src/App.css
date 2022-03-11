@@ -1,8 +1,14 @@
 body {
-  background-color: #f4f7f6;
+  background-color: #10012c;
   margin-top: 20px;
 }
+
+.container .row .col-lg-12 .card {
+  background-image: linear-gradient(rgb(207, 247, 162), rgb(26, 6, 49));
+}
+
 .card {
+  margin-top: 50px;
   background: #fff;
   transition: 0.5s;
   border: 0;
@@ -74,7 +80,7 @@ body {
 
 .chat .chat-header {
   padding: 15px 20px;
-  border-bottom: 2px solid #f4f7f6;
+  /* border-bottom: 2px solid #f4f7f6; */
 }
 
 .chat .chat-header img {
@@ -90,7 +96,7 @@ body {
 
 .chat .chat-history {
   padding: 20px;
-  border-bottom: 2px solid #fff;
+  /* border-bottom: 2px solid #fff; */
 }
 
 .chat .chat-history ul {
@@ -182,6 +188,10 @@ body {
   margin-right: 2px;
   font-size: 8px;
   vertical-align: middle;
+}
+
+.current-online {
+  color: #86c541;
 }
 
 .online {
