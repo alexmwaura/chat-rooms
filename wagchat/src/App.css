@@ -29,7 +29,7 @@ body {
 
 .chat-app .chat {
   margin-left: 280px;
-  border-left: 1px solid #eaeaea;
+  border-left: 1px solid rgb(207, 247, 162);
 }
 
 .people-list {
@@ -46,12 +46,12 @@ body {
 }
 
 .people-list .chat-list li:hover {
-  background: #efefef;
+  background-image: linear-gradient(rgb(207, 247, 162), rgb(26, 6, 49));
   cursor: pointer;
 }
 
 .people-list .chat-list li.active {
-  background: #efefef;
+  background-image: linear-gradient(rgb(207, 247, 162), rgb(26, 6, 49));
 }
 
 .people-list .chat-list li .name {
